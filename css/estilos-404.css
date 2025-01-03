@@ -37,7 +37,7 @@ body, html {
 
 .btn {
   background-color: #00e1ff;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   border: none;
   padding: 10px 20px;
