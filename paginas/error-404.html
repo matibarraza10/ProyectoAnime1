@@ -13,7 +13,78 @@
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-  <main class="main">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.png" alt="logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca-de-nosotros.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./inicio-sesion.html">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Suscribirse</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content text-muted"> 
+          <div class="modal-header bg-warning">
+            <h5 class="modal-title" id="exampleModalLabel2">Mantente actualizado</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp" minlength="5" maxlength="50">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required minlength="5" maxlength="50">
+              </div>
+              <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" required>
+              </div>
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Acepto los términos y condiciones
+                </label>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Suscribirme</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main pt-5">
     <div class="container content">
       <div class="row g-4">       
         <div class="col-md-6 d-flex align-items-center">
@@ -21,11 +92,8 @@
         </div>
         <div class="col-md-6 d-flex flex-column justify-content-center">
           <h2 class="card-title text-center">Error 404</h2>
-          <p class="card-text text-center">No pudimos encontrar la página que estás buscando. 
+          <p class="card-text text-center mb-5">No pudimos encontrar la página que estás buscando. 
             <br>La URL solicitada no se encontró en este servidor.</p>
-          <div class="text-center mb-5 mb-md-0">
-            <a href="../index.html" class="btn">Volver al inicio</a>
-          </div>
         </div>
       </div>
     </div>
