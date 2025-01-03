@@ -3,12 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .main-content {
-  margin-top: 90px; /* Ajusta según la altura de tu navbar */
+  margin-top: 90px; 
 }
-
-/* Estilos adicionales si es necesario */
 body {
   padding-top: 0; 
 }
@@ -51,6 +48,196 @@ body {
 }
 .navbar-dark .nav-link.active {
   color: #FFF800 !important;  
+}
+/* Contenido página principal */
+body.pagina-index {
+  background-color: #000000;
+  color: #FFF800;
+}
+.no-background-categorias {
+  background-color: transparent;
+  color: white;
+}
+.titulo-entrada {
+  color: #FFF800;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.entrada-descripcion {
+  color: white;
+  font-size: 1rem;
+}
+.entrada .btn {
+  background-color: #00e1ff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+}
+.card-entrada {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: none; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+.card-img-container {
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-entrada-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-body-entrada {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border-radius: 10px; 
+  padding: 20px;
+  width: 100%;
+}
+.card-title-entrada {
+  color: white;
+  font-size: 1.75rem; 
+  font-weight: bold;
+}
+.card-text-entrada {
+  color: white;
+  font-size: 1rem;
+}
+.card-entrada-pagina {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.card-pagina-img-top {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+.card-body-entrada-pagina {
+  padding: 20px; 
+}
+.card-title-entrada {
+  font-size: 2.5rem;
+  color: #00e1ff;
+  font-weight: bold;
+}
+.zoom-hover {
+  transition: transform 0.3s ease;
+}
+.zoom-hover:hover {
+  transform: scale(1.1); 
+}
+.pagination .page-link {
+  color: #00e1ff;
+  background-color: transparent; 
+  border: none; 
+}
+.pagination .page-link:hover {
+  color: #FFF800;
+  background-color: transparent; 
+}
+.pagination .active .page-link {
+  color: #FFF800;
+  background-color: transparent; 
+}
+.pagination .disabled .page-link {
+  color: gray; 
+  background-color: transparent; 
+}
+.no-background-categorias a {
+  background-color: transparent; 
+  color: white; 
+  border: none; 
+  text-decoration: none; 
+}
+.no-background-categorias a:hover {
+  color: #00e1ff;
+}
+.link-custom {
+    color: white !important;
+    text-decoration: none;
+}
+.link-custom:hover {
+    color: #00e1ff !important;
+}
+.btn {
+    background: none !important;
+    border: none !important;
+}
+.btn:hover {
+    text-decoration: none !important;
+    color: #00e1ff !important;
+}
+.list-group {
+    padding: 0;
+}
+.btn-custom {
+    background-color: #00e1ff; 
+    color: white; 
+    border: none;
+    padding: 10px; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+  }
+  .btn-custom:hover {
+    background-color: #ff4500;
+  }
+  .link-custom {
+    color: #007bff; 
+    text-decoration: none;
+  }
+  .link-custom:hover {
+    color: #ff4500; 
+  }
+  .card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.card img {
+  transition: transform 0.3s ease;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;          
+}
+.card:hover .card-overlay {
+  opacity: 1;
+}
+.card-overlay h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-overlay p {
+  font-size: 1rem;
+ margin-bottom: 1rem;
+}
+.card-overlay .btn {
+  margin: 0.2rem;
 }
 /* Acerca de Nosotros */
 .body-background {
