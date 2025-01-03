@@ -1,0 +1,50 @@
+:root {
+  --color-letras: #3d3b3a;
+  --borde-tarjetas: 0.4px solid white; 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #e1e1e1; 
+  background-image: url('../img/contacto-background3.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.card-title {
+  color: #ff4800;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #00e1ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4800;
+}
