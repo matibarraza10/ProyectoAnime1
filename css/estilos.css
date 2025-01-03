@@ -163,42 +163,43 @@ body.pagina-index {
   color: #00e1ff;
 }
 .link-custom {
-    color: white !important;
-    text-decoration: none;
+  color: rgb(133, 132, 132) !important;
+  text-decoration: none;
 }
 .link-custom:hover {
-    color: #00e1ff !important;
+  color: #ff4500 !important;
 }
 .btn {
-    background: none !important;
-    border: none !important;
+  background: #00e1ff !important;
+  border: none !important;
 }
 .btn:hover {
-    text-decoration: none !important;
-    color: #00e1ff !important;
+  text-decoration: none !important;
+  color: #ff4500 !important;
 }
 .list-group {
-    padding: 0;
+  padding: 0;
 }
 .btn-custom {
-    background-color: #00e1ff; 
-    color: white; 
-    border: none;
-    padding: 10px; 
-    font-size: 16px; 
-    transition: background-color 0.3s ease;
-  }
-  .btn-custom:hover {
-    background-color: #ff4500;
-  }
-  .link-custom {
-    color: #007bff; 
-    text-decoration: none;
-  }
-  .link-custom:hover {
-    color: #ff4500; 
-  }
-  .card {
+  background-color: #00e1ff; 
+  color: rgb(93, 93, 93); 
+  border: none;
+  padding: 10px; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #ff4500;
+  color: rgb(255, 255, 255);
+}
+.link-custom {
+  color: #00e1ff; 
+  text-decoration: none;
+}
+.link-custom:hover {
+  color: #ff4500; 
+}
+.card {
   position: relative;
   overflow: hidden;
   border: none;
@@ -241,7 +242,7 @@ body.pagina-index {
 }
 /* Acerca de Nosotros */
 .body-background {
-  background-image: url('../img/contacto-background4.jpg'); 
+  background-image: url('../img/contacto-background.jpg'); 
   background-size: cover; 
   background-position: center;
   min-height: 100vh;
@@ -291,26 +292,26 @@ body.pagina-index {
   margin-right: 10px;
 }
 .bg-inicio-sesion {
-  background-image: url(../img/login/fondo-inicio-sesion.webp);
-   background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('../img/login/fondo-inicio-sesion.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* Galería */
 .bg-galeria {
-   background-image: url('../img/galeria/lufy3.jpg');
-   background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('../img/galeria/lufy3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .galeria {
   img {
     border: 3px solid var(--color-1);
-     transition: transform 0.6s ease;
-     height: 300px;
-     width: auto;
-     box-shadow: 5px 5px 15px 0 black;
-     object-fit: cover;
+    transition: transform 0.6s ease;
+    height: 300px;
+    width: auto;
+    box-shadow: 5px 5px 15px 0 black;
+    object-fit: cover;
   }  
   img:hover {
     cursor: pointer;
@@ -323,8 +324,24 @@ body.pagina-index {
   color: #00E1FF; 
 }
 .text-light-blue:hover {
-  color: #5bc0eb; 
+  color: #ff4500; 
   transition: color 0.3s ease; 
+}
+ form#contactForm .btn-primary {
+  display: inline-block !important; 
+  padding: 10px 20px; 
+  background-color: #00e1ff !important; 
+  color: rgb(104, 104, 104) !important; 
+  font-size: 16px; 
+  text-align: center; 
+  border: none !important; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+form#contactForm .btn-primary:hover {
+  background-color: #ff4800 !important; 
+  color: white !important; 
 }
 .contacto-background {
   background-image: url('../img/contacto-background4.webp'); 
@@ -371,7 +388,7 @@ body.pagina-index {
   text-align: center;
 }
 .social-link {
-  color: white; 
+  color: #FFF800; 
   font-size: 1.5rem; 
   transition: color 0.3s ease; 
   text-decoration: none; 
@@ -417,61 +434,46 @@ body.pagina-index {
     margin: 10px auto;
   }
 }
-
+/* Contenido Cards Index */
 .zoom-hover {
   transition: transform 0.3s ease;
 }
-
 .zoom-hover:hover {
   transform: scale(1.3); 
 }
-
 .blog-background {
-
   background-color: #000;
 }
-
 .most-viewed-list {
   text-align: center; 
   list-style-type: none; 
   padding-left: 0; 
-
 }
-
 .most-viewed-list li {
   display: inline-block; 
   margin: 5px; 
-  color: #5bc0eb;
-  
+  color: #ffffff;  
 }
 .most-viewed-list li:hover {
   display: inline-block; 
   margin: 5px; 
-  color: #FFF800;
-  
+  color: #FFF800;  
 }
-
 .titulo-entrada {
-text-align:center;
-text-align: center; /* Centra el contenido dentro del contenedor */
-list-style-type: none; /* Elimina los puntos de la lista */
-padding-left: 0
-
+ text-align:center;
+ text-align: center; 
+ list-style-type: none; 
+ padding-left: 0;
 }
-
 .most-viewed-list a {
   text-decoration: none;
 }
-
 .blog-titulo {
   color: white;
 }
-
 .entrada-descripcion {
   color: white;
 }
-
 .color-titulo {
-
   color: white;
 }
