@@ -310,7 +310,7 @@ body.pagina-index {
     transition: transform 0.6s ease;
     height: 300px;
     width: auto;
-    box-shadow: 5px 5px 15px 0 black;
+    box-shadow: 5px 5px 15px 0 #f9ff00;
     object-fit: cover;
   }  
   img:hover {
