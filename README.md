@@ -24,4 +24,4 @@ Este sitio web está diseñado para fanáticos del anime, permitiendo explorar u
 - Este proyecto está bajo licencia MIT.
 
 ## Autores
-- Diaz Francisco, Matias Barraza, Carolina.
+- Diaz Francisco, Matias Barraza, Carolina Bravo.
