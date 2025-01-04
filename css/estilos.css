@@ -423,7 +423,7 @@ form#contactForm .btn-primary:hover {
   }
     .galeria img { 
     width: 200px;
-    height: auto;
+    height: 500px;
     margin: 10px auto;
   }
 }
