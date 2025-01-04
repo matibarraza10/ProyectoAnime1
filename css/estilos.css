@@ -280,6 +280,10 @@ body.pagina-index {
   height: 20px;
   margin-right: 10px;
 }
+.btn-inicio-sesion {
+  text-align: center;
+  padding: 5px;
+}
 .bg-inicio-sesion {
   background-image: url('../img/login/fondo-inicio-sesion.webp');
   background-size: cover;
