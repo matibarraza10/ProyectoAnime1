@@ -115,18 +115,18 @@
           <div class="col-md-6">
             <div class="bg-dark bg-opacity-50 p-4 shadow w-100 h-100" style="border-radius: 8px;">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form name="sentMessage" id="contactForm">
                 <div class="control-group mb-3">
-                  <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Nombre y Apellido" required data-validation-required-message="Por favor introduzca su nombre" />
+                  <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Nombre y Apellido" required/>
                 </div>
                 <div class="control-group mb-3">
-                  <input type="email" class="form-control bg-transparent p-4" id="email" placeholder="Email" required data-validation-required-message="Por favor ingrese su Email" />
+                  <input type="email" class="form-control bg-transparent p-4" id="email" placeholder="Email" required/>
                 </div>
                 <div class="control-group mb-3">
-                  <input type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Asunto" required data-validation-required-message="Por favor introduzca un asunto" />
+                  <input type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Asunto" required/>
                 </div>
                 <div class="control-group mb-3">
-                  <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Mensaje" required data-validation-required-message="Por favor introduzca un mensaje"></textarea>
+                  <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Mensaje" required></textarea>
                 </div>
                 <div>
                   <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Enviar</button>
